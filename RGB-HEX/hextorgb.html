@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoder-Decoder</title>
+    <link rel="stylesheet" href="../Common/commonstyle.css" type="text/css">
+    <link rel="stylesheet" href="../styles.css" type="text/css">
+</head>
+<body>
+    <div id="top-bar">
+        <span style="margin-left:650px;"><a href="../../index.html">Utility App</a></span>
+        <h1 style="margin-left:150px;font-size:25px">HexCode to RGB</h1>
+      </div>
+    <navbar>
+        <div id="sub-utility">
+        <label for="Encoder-Decoder"></label>
+        <select name="rgb-hex" id="option-value" onchange="onchange_action()">
+            <option value="hex-rgb">HEX=>RGB</option>
+            <option value="rgb-hex">RGB=>HEX</option>
+            
+        </select>
+        </div>
+    </navbar>
+    <br>
+    <br>
+    <div id="content">
+        <label>Enter the HEX code</label>
+        <br>
+        <input style="margin-top:5px;" type="text" id="input_text">
+        <br>
+        <br>
+        <button id="convert-btn">Convert</button>
+        <br>
+        <br>
+        <label>RGB code:</label>
+        <br>
+        <br>
+        <div id="rgb" style="margin-top:10px;">
+        <label style="color:red">Red:</label>
+        <input style="margin-left:10px" type="text" id="red">
+        <br>
+        <br>
+        <label style="color:Green">Green:</label>
+        <input type="text" id="green">
+        <br>
+        <br>
+        <label style="color:Blue">Blue:</label>
+        <input style="margin-left:10px" type="text" id="blue">
+    </div>
+    </div>
+    <script src="linkfile.js"></script>
+    <script src="app1.js"></script>
+</body>
+</html>

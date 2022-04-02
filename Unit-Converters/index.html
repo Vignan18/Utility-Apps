@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Coverters</title>
+    <link rel="stylesheet" href="../Common/commonstyle.css" type="text/css">
+    <link rel="stylesheet" href="../styles.css" type="text/css">
+</head>
+<body>
+    <div id="top-bar">
+        <span style="margin-left:650px;"><a href="../../index.html">Utility App</a></span>
+        <h1 style="margin-left:150px;font-size:25px">Unit Converters</h1>
+      </div>
+    <navbar>
+        <div id="sub-utility">
+        <select name="M-CM" id="option-value-1" onchange="onchange_action()">
+            <option value="Selected">Select any option</option>
+            <option value="KM">KiloMetre</option>
+            <option value="M">Metre</option>
+            <option value="CM">CentiMetre</option>
+            <option value="MM">MilliMetre</option>
+        </select>
+        <select name="M-CM" id="option-value-2" onchange="onchange_action()">
+            <option value="Selected">Select any option</option>
+            <option value="KM">KiloMetre</option>
+            <option value="M">Metre</option>
+            <option value="CM">CentiMetre</option>
+            <option value="MM">MilliMetre</option>
+        </select>
+        </div>
+    </navbar>
+    <br>
+    <br>
+    <br>
+    <div id="content">
+        <label>Enter the Value</label>
+        <br>
+        <textarea placeholder="Enter Value here" id="inp-val"></textarea>
+        <br>
+        <button id="convert-btn">Convert</button>
+        <br>
+        <label style="text-align: center">Output:</label>
+        <br>
+        <textarea placeholder="Your Output here" id="Output"></textarea>
+    </div>
+    <script src="unitconverter.js"></script>
+</body>
+</html>

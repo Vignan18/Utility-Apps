@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoch Converter</title>
+    <link rel="stylesheet" href="../Common/commonstyle.css" type="text/css">
+    <link rel="stylesheet" href="../styles.css" type="text/css">
+</head>
+<body>
+    <div id="top-bar">
+        <span style="margin-left:650px;"><a href="../../index.html">Utility App</a></span>
+        <h1 style="margin-left:150px;font-size:25px">Human to Epoch Time</h1>
+      </div>
+    <navbar>
+        <div id="sub-utility">
+        <select name="Number Base Converters" id="option-value" onchange="onchange_action()">
+            <option value="human-ep">Human-Epoch</option>
+            <option value="ep-human">Epoch-human</option>
+        </select>
+        </div>
+    </navbar>
+    <br>
+    <br>
+    <div id="content">
+        <div id="userinput">
+            <label>Year:</label>
+            <input type="text" id="year">
+            <br>
+            <br>
+            <label>Month:</label>
+            <input type="text" id="month">
+            <br>
+            <br>
+            <label>Date:</label>
+            <input type="text" id="date">
+            <br>
+            <br>
+            <label>Hour:</label>
+            <input type="text" id="hour">
+            <br>
+            <br>
+            <label>Minute:</label>
+            <input type="text" id="minute">
+            <br>
+            <br>
+            <label>Second:</label>
+            <input type="text" id="second">
+            <br>
+            <br>
+            <button id="convert-btn">Convert</button>
+            <br>
+            <br>
+            <label id="epoch">Epoch:</label>
+            <input type="text" id="output_val">
+            <br>
+            <br>
+            
+        </div>
+    </div>
+    <script src="app1.js"></script>
+    <script src="linkfile.js"></script>
+</body>
+</html>

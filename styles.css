@@ -1,0 +1,138 @@
+body{
+    background-color:#D6DBDF;
+    line-height: 1.7;
+    font-size: 19px;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+#top-bar{
+
+      display: flex;
+      align-items: center;
+      align-content: center;
+      line-height: 45px;
+      background-color: white; 
+     
+}
+.dropbtn {
+    background-color: white; 
+    color:black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    margin-left:650px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a{
+    color: black;
+    padding:2px;
+    text-decoration: none;
+    display: block;
+    
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.utilites{
+    max-width:1000px;
+    margin:150px auto;
+    padding:20px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
+
+.card{
+    background: white;
+    border-radius:10px;
+    padding:30px;
+    box-shadow:rgba(17,12,46,0.15) 1px;
+    border: 1px solid;
+    box-shadow: 5px 10px 18px orange;
+    margin-bottom:30px;
+    margin-left:30px;
+}
+
+.card:nth-child(1){
+    box-shadow: 5px 10px 18px orange;
+}
+
+.card:nth-child(2){
+    box-shadow: 5px 10px 18px pink;
+}
+
+.card:nth-child(3){
+    box-shadow: 5px 10px 18px red;
+}
+
+.card:nth-child(4){
+    box-shadow: 5px 10px 18px green;
+}
+
+.card:nth-child(5){
+    box-shadow: 5px 10px 18px blueviolet;
+}
+
+.card:nth-child(6){
+    box-shadow: 5px 10px 18px skyblue;
+}
+
+
+img{
+    margin-left:10px;
+}
+
+
+
+
+
+.card__header{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.card__header h3{
+    font-size:18px;
+}
+
+
+.card__img{
+    width:100px;
+    height:100px;
+}
+
+@media(max-width:768px){
+    .utilites{
+        grid-template-columns: 1fr;
+        width:100%;
+    }
+}
